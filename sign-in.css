@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+
+body{
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 58%, rgba(148,187,233,1) 100%);
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	padding: 30px;
+	border-bottom: 1px solid;
+}
+
+.signIn{
+	margin: 0;
+	min-height: 800px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.signIn > img{
+	max-width: 100%;
+	height: auto;
+}
+
+.signIn > input{
+	width: 300px;
+	height: 25px;
+	padding: 10px;
+	background: rgb(238,174,202);
+	border-radius: 4px;
+	border: solid 1px #fff;
+}
+
+.signIn > input::placeholder{
+	color: #fff;
+	font-weight: bold;
+}
+
+.signIn .email{
+	margin: 5px;
+}
+
+.btn{
+	background: #f05161;
+	width: 150px;
+	height: 40px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 0;
+	box-shadow: 0px 5px #F99;
+	margin: 0px 10px 0px 10px; 
+}
+
+.btn:hover{
+	background-color: #fff;
+}
+
+.btn-signIn{
+	width: 320px;
+	margin: 20px;
+	background: #f05161;
+}
